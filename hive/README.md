@@ -12,3 +12,5 @@ docker exec -it docker-hive_hive-server_1 /bin/bash
 ## GUI Database management
 DBeaver
 
+
+
