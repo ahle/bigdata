@@ -12,5 +12,8 @@ docker exec -it docker-hive_hive-server_1 /bin/bash
 ## GUI Database management
 DBeaver
 
+### PrestoDB
+For more performance, we could use PrestoDB
+
 
 
