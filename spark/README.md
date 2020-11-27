@@ -13,3 +13,7 @@ basedir must be absolute /.ivy2/local
 
 ## environment for pyspark
 https://github.com/ahle/bigdata/releases/download/0.1/venv-spark.zip
+
+
+### Run on zeppelin
+ docker run -it -p 18080:18080 -p 8088:8080 -d mirkoprescha/spark-zeppelin-docker
