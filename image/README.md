@@ -4,3 +4,6 @@ https://github.com/chrislusf/seaweedfs
 
 Image storage
 1 billion image
+
+Docker
+https://hub.docker.com/r/carmark/seaweedfs
