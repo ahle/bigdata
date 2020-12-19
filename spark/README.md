@@ -22,9 +22,9 @@ https://github.com/ahle/bigdata/releases/download/0.1/venv-spark.zip
 https://medium.com/@suci/running-pyspark-on-jupyter-notebook-with-docker-602b18ac4494
 
 ```cmd
-docker run -it --rm -p 8888:8888 jupyter/pyspark-notebook --name pyspark-notebook
+docker run --name=spark-notebook -it --rm -p 8888:8888 -v ./notebook:/home/jovyan/work jupyter/pyspark-notebook
 
-docker exec -it pyspark-notebook /bin/sh
+docker exec -it spark-notebook /bin/sh
 jupyter notebook list
 get token 
 http://localhost:8888/?token=e144d004f6652ae6406a78adf894621e62fdeb1fc57d02e8
