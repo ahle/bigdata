@@ -18,7 +18,7 @@ https://github.com/ahle/bigdata/releases/download/0.1/venv-spark.zip
 ### Run on zeppelin
  docker run -it -p 18080:18080 -p 8088:8080 -d mirkoprescha/spark-zeppelin-docker
  
-### Run spark on jupyter
+### Run spark on jupyter (recommended)
 https://medium.com/@suci/running-pyspark-on-jupyter-notebook-with-docker-602b18ac4494
 
 ```cmd
