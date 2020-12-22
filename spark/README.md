@@ -31,3 +31,5 @@ http://localhost:8888/?token=e144d004f6652ae6406a78adf894621e62fdeb1fc57d02e8
 ```
 
 ### install spark on windows
+
+spark-class org.apache.spark.deploy.master.Master
