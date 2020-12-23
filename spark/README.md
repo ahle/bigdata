@@ -32,8 +32,13 @@ http://localhost:8888/?token=e144d004f6652ae6406a78adf894621e62fdeb1fc57d02e8
 
 ### install spark on windows
 
+```
 spark-class org.apache.spark.deploy.master.Master -h 192.168.1.19
 spark-class org.apache.spark.deploy.master.Worker spark://192.168.1.19:7077
+```
 
-
+### avro
+```
+spark-submit --packages org.apache.spark:spark-avro_2.12:3.0.1 --master spark://192.168.0.100:7077 main.py
+```
 
