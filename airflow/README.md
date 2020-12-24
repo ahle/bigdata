@@ -10,9 +10,9 @@ smtp_host = smtp.gmail.com
 smtp_starttls = False
 smtp_ssl = True
 # Example: smtp_user = airflow
-smtp_user = ahle.developer
+smtp_user = ***@gmail.com
 # Example: smtp_password = airflow
-smtp_password = Ah11011986
+smtp_password = *******
 smtp_port = 465
-smtp_mail_from = ahle.developer@gmail.com
+smtp_mail_from = ***@gmail.com
 ```
